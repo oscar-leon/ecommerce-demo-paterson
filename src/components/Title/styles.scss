@@ -1,0 +1,12 @@
+.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+    &--capital {
+        text-transform: uppercase;
+    }
+    
+    &--big {
+        font-size: 1.75rem;
+    }
+}

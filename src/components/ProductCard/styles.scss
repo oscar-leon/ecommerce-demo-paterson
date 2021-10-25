@@ -1,0 +1,38 @@
+.product-card {
+    max-width: 275px;
+    width: 100%;
+    margin-bottom: 3rem;
+
+    &__img {
+        background-color: white;
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+
+        &--element {
+            max-width: 175px;
+            margin: 0 auto;
+            display: block;
+            height: 275px;
+        }
+    }
+
+    &__info {
+        &--title {
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__price {
+        font-weight: bold;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

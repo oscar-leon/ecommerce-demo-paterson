@@ -1,0 +1,17 @@
+.cart-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 1rem;
+
+    &__title{
+        width: 50%;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+}

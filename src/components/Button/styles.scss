@@ -1,0 +1,19 @@
+.btn {
+    border-style: none;
+    min-width: 100px;
+    width: 100%;
+
+    &--add {
+        color: white;
+        background-color: black;
+        padding: 0.5rem;
+        font-weight: bold;
+    }
+
+    &--buy {
+        background-color: #414040;
+        color: white;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+    }
+}

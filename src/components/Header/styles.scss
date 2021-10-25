@@ -1,0 +1,35 @@
+.header {
+    background-color: white;
+    
+    &__container {
+        padding: 1.5rem 5rem;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo-wrapper {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    &__logo-link {
+        text-decoration: none;
+        color: #222;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}
+
+
+#logo {
+    width: 250px;
+}

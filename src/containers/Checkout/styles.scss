@@ -1,0 +1,43 @@
+$gray: #e0e0e0;
+
+%table-borders {
+    border: 1px solid $gray;
+    border-top: 3px solid $gray;
+}
+
+.cart-summary {
+    @extend %table-borders;
+    margin-right: 2rem;
+    min-width: 69%;
+}
+
+.buy {
+    &-wrapper {
+        @extend %table-borders;
+        min-width: calc(30% - 2rem);
+        align-self: baseline;
+    }
+
+    &-action {
+        padding: 1rem;
+    }
+}
+
+.checkout {
+    &-summary {
+        padding: 1rem;
+        border-bottom: 1px solid $gray;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-articles {
+        font-size: 0.9rem;
+    }
+
+    &-price {
+        font-weight: bold;
+    }
+}
+
+

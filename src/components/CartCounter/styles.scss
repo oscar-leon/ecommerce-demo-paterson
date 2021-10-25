@@ -1,0 +1,50 @@
+.cart {
+    &-logo {
+        &__wrapper {
+            margin-right: 1rem;
+            position: relative;
+        }
+    }
+
+    &-counter {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        &__total {
+            position: absolute;
+            background: black;
+            min-width: 15px;
+            color: white;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            padding: 0.15rem;
+            right: -10px;
+            top: -5px;
+            font-weight: bold;
+        }
+
+        &-info {
+            &__wrapper {
+                font-size: 0.75rem;
+            }
+
+            &__total {
+                color: #938b8b;
+            }
+
+            &__text {
+                font-weight: bold;
+            }
+        }
+
+        &__link {
+            &:visited {
+                color: unset;
+            }
+            text-decoration: none;
+        }
+    }
+}
